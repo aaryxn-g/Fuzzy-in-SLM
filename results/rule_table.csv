@@ -1,0 +1,17 @@
+rule,antecedent,bias_confidence,avg_firing
+6,entropy is low AND margin is high AND attention_spread is high AND layer_instability is low,0.929,0.3494
+4,entropy is low AND margin is high AND attention_spread is low AND layer_instability is low,0.911,0.2702
+12,entropy is high AND margin is high AND attention_spread is low AND layer_instability is low,0.712,0.1699
+8,entropy is high AND margin is low AND attention_spread is low AND layer_instability is low,0.392,0.0871
+14,entropy is high AND margin is high AND attention_spread is high AND layer_instability is low,0.445,0.0479
+9,entropy is high AND margin is low AND attention_spread is low AND layer_instability is high,0.179,0.0476
+10,entropy is high AND margin is low AND attention_spread is high AND layer_instability is low,0.159,0.0183
+11,entropy is high AND margin is low AND attention_spread is high AND layer_instability is high,0.2,0.009
+13,entropy is high AND margin is high AND attention_spread is low AND layer_instability is high,0.732,0.0004
+0,entropy is low AND margin is low AND attention_spread is low AND layer_instability is low,0.654,0.0
+1,entropy is low AND margin is low AND attention_spread is low AND layer_instability is high,0.714,0.0
+2,entropy is low AND margin is low AND attention_spread is high AND layer_instability is low,0.674,0.0
+3,entropy is low AND margin is low AND attention_spread is high AND layer_instability is high,0.676,0.0
+5,entropy is low AND margin is high AND attention_spread is low AND layer_instability is high,0.857,0.0
+7,entropy is low AND margin is high AND attention_spread is high AND layer_instability is high,0.868,0.0
+15,entropy is high AND margin is high AND attention_spread is high AND layer_instability is high,0.465,0.0

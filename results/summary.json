@@ -1,0 +1,61 @@
+{
+  "data_kind": "real signals.csv",
+  "n": 800,
+  "base_accuracy": 0.765,
+  "temperature": 1.4875,
+  "metrics": [
+    {
+      "method": "Raw confidence",
+      "ECE": 0.0717,
+      "ECE_std": 0.0151,
+      "Brier": 0.1289,
+      "Brier_std": 0.0152,
+      "AUROC": 0.8532,
+      "AUROC_std": 0.0231,
+      "AURC": 0.0714,
+      "AURC_std": 0.0172,
+      "acc_at_50pct_coverage": 0.9488,
+      "acc_at_50pct_coverage_std": 0.0188
+    },
+    {
+      "method": "Temperature scaling",
+      "ECE": 0.0588,
+      "ECE_std": 0.0142,
+      "Brier": 0.1271,
+      "Brier_std": 0.0138,
+      "AUROC": 0.8532,
+      "AUROC_std": 0.0231,
+      "AURC": 0.0714,
+      "AURC_std": 0.0172,
+      "acc_at_50pct_coverage": 0.9488,
+      "acc_at_50pct_coverage_std": 0.0188
+    },
+    {
+      "method": "MLP calibrator",
+      "ECE": 0.0614,
+      "ECE_std": 0.0165,
+      "Brier": 0.1299,
+      "Brier_std": 0.0136,
+      "AUROC": 0.8391,
+      "AUROC_std": 0.0227,
+      "AURC": 0.0786,
+      "AURC_std": 0.0188,
+      "acc_at_50pct_coverage": 0.9438,
+      "acc_at_50pct_coverage_std": 0.018
+    },
+    {
+      "method": "Fuzzy gate (ANFIS)",
+      "ECE": 0.0566,
+      "ECE_std": 0.0152,
+      "Brier": 0.1329,
+      "Brier_std": 0.0125,
+      "AUROC": 0.8434,
+      "AUROC_std": 0.0255,
+      "AURC": 0.0749,
+      "AURC_std": 0.0178,
+      "acc_at_50pct_coverage": 0.9446,
+      "acc_at_50pct_coverage_std": 0.0199
+    }
+  ],
+  "improvement_ECE_vs_raw": 0.0151
+}
